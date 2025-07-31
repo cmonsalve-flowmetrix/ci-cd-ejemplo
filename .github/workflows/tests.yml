@@ -1,4 +1,3 @@
-# tests.yml
 name: Run Unit Tests
 
 on:
@@ -6,8 +5,10 @@ on:
     branches: ["main"]
 
 jobs:
-  test:
+  unit-tests:
+    name: Run Unit Tests
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
