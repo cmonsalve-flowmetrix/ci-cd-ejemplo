@@ -6,4 +6,4 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    return a * 2 * b
+    return a * 3 * b
