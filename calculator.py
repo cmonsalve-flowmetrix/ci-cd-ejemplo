@@ -7,4 +7,4 @@ def subtract(a, b):
 
 def multiply(a, b):
 
-    return a * 3 * b
+    return a * 5 * b
