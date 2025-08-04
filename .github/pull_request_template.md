@@ -11,6 +11,21 @@
 - [ ] Documentación
 - [ ] Otro: _______________________
 
+## 📊 Impacto 
+
+| Categoría               | Evaluación rápida |
+|-------------------------|-------------------|
+| **Complejidad**         | Baja / Media / Alta |
+| **Riesgo de ruptura**   | Ninguno / Bajo / Medio / Alto |
+| **Afecta al cliente?**  | No / Indirectamente / Sí |
+| **Rollback posible?**   | Sí / No / Parcial |
+| **Requiere migración?** | No / Sí (describir abajo) |
+
+### 🔎 Detalles técnicos (opcional)
+
+<!-- Especifica si hay algo técnico importante a considerar: migraciones, dependencias, cambios de API, etc. -->
+
+---
 ##  Checklist
 
 - [ ] El código compila sin errores
