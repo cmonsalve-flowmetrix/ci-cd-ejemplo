@@ -2,7 +2,7 @@ name: Deploy Lambda to Staging
 
 on:
   push:
-    branches: [staging]  # still runs on push to staging
+    branches: [main]  # still runs on push to staging
 
   workflow_dispatch:      # 👈 enables manual run from GitHub Actions UI
 
