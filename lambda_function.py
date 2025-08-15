@@ -7,7 +7,7 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    return a * 4 * b
+    return a * 5 * b
 
 # Lambda handler
 def lambda_handler(event, context):
