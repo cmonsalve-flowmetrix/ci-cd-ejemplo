@@ -9,6 +9,10 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(add(-1, 1), 0)
         self.assertEqual(add(0, 0), 0)
 
+    def test_multiply(self):
+        self.assertEqual(multiply(1, 3), 15)
+
+
     def test_lambda_handler_add(self):
         event = {"operation": "add", "a": 10, "b": 15}
         response = lambda_handler(event, None)
